@@ -1,0 +1,94 @@
+.sidebar {
+  /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 10;
+  right: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* Float four columns side by side */
+.column {
+  margin: 20px 20px;
+  width: 20%;
+  padding: 10px 10px;
+  margin: "10px ,10px";
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* padding: 16px; */
+  text-align: center;
+  background-color: #f1f1f1;
+  transition: 0.5s;
+  border: "1px solid black";
+}
+
+
+/* ***********class description css  */
+
+
+/* Float four columns side by side */
+.classColumn {
+  margin: auto;
+  width: 50%;
+  padding: 10px 10px;
+  margin: "10px ,10px";
+}
+
+/* Remove extra left and right margins, due to padding */
+.classRow {
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.classRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .classColumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.classCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* padding: 16px; */
+  text-align: center;
+  background-color: #f1f1f1;
+  transition: 0.5s;
+  border: "1px solid black";
+}
